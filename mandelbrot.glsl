@@ -1,3 +1,6 @@
+// Useful resource: https://www.codingame.com/playgrounds/2358/how-to-plot-the-mandelbrot-set/mandelbrot-set
+// https://www.shadertoy.com/view/WdBfDR
+
 // Multiply two complex numbers.
 vec2 mult(vec2 a, vec2 b) {
     return vec2(a.x*b.x-a.y*b.y, a.y*b.x+a.x*b.y);
